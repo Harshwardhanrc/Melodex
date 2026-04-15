@@ -1,4 +1,4 @@
-const TOKEN = "YOUR_ACCESS_TOKEN_HERE"; // 🔥 paste token here
+const TOKEN = "YOUR_ACCESS_TOKEN_HERE"; //
 
 function getTrackId(url) {
     return url.split("/track/")[1].split("?")[0];
