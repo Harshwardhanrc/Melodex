@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Melodex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+    <h2>Melodex</h2>
+    <p>Analyze song mood using Spotify metadata</p>
+
+    <input id="link" placeholder="Paste Spotify track link">
+    <button onclick="analyze()">Analyze Song</button>
+
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>Analyzing metadata...</p>
+    </div>
+
+    <div id="result">
+        <div class="mood" id="mood"></div>
+        <div class="caption" id="caption"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
